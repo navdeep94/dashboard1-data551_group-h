@@ -53,7 +53,7 @@ testdf = df.head(10)
 
 
 app = dash.Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
-server = src.app.server
+server = app.server
 app.config.suppress_callback_exceptions = True
 
 testbutton = html.Div(
