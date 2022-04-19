@@ -1,12 +1,10 @@
 # US School Finder (Group H)
 
-[Link to the deployed app](https://us-school-finder.herokuapp.com/)
+## Dashboard Deployment Links and Repositories
 
-[Link to Navdeep's Deployment](https://us-school-finder-navdeep.herokuapp.com/)
-
-[Link to Bowen's Deployment](https://us-school-finder-bowen.herokuapp.com/)
-
-[Link to Can's Deployment](https://us-school-finder-can.herokuapp.com/)
+| Link      | Repository |
+| ----------- | ----------- |
+|[Link to the Group Deployment](https://us-school-finder-dashboard.herokuapp.com/)     | [Repo](https://github.com/ubco-mds-2021-labs/dashboard1-data551_group-h/tree/deployment)    |
 
 ## Goals
 
@@ -27,26 +25,15 @@ We will be visualizing a dataset of approximately 3,000 colleges & universities 
 
 ## About this Dashboard
 
-<img src ="dashboard.jpg" width="1000px">
+<img src ="FinalDashboard.PNG" width="1000px">
 
 ## Description of our app & sketch
 
 The app contains a U.S. map that shows all the states. The map is interactive and users can click on a state to show the information for that state. Below the map is a filter menu which can be used to adjust which schools will be displayed according to several selecting criteria (school type, degree length, state, in/out state, whether it has room & board and tuition range). A list of all the schools that meet the selecting criteria will be displayed in the top-right box, showing the detailed cost for that school. Below the school list are two bar chart, comparing the selected school's tuition and the projected salary potential with the state average and nation average.
 
-## Milestone 4 Scope and Plan
+## Dashboard Usage Example
 
-Below is the list of items that we are taking to the scope of milestone4 so that its easy for us to refer this file and work accordingly:
-
-- Numbers on Bar chart - We need to show numbers on the bar chart as well
-- Improve the bar chart plots - We need to interchange x and y labels. Also we need to improve the x axis labels
-- Include Instate/Outstate toggle button to switch between the instate/outstate tuition bar plots
-- Map to highlight the state which is selected - This needs to be done if it is feasible to do, need to reasearch upon this
-
-Note: - Will add more things in case in case of more brainstorming and feedback from TA in Milestone2
-
-## Test Case
-
-Once you open the heroku dahsboard app from one of the four links stated above, use can use the below test case in the filters dropdown to test the functionality of the app:
+Once you open the heroku dahsboard app from one of the four links stated above, you can use the below test case in the filters dropdown to test the functionality of the app:
 
 - School Type: Public
 - Degree Length: 4 Year
@@ -55,9 +42,9 @@ Once you open the heroku dahsboard app from one of the four links stated above, 
 - Click on Select on 'Alabama State University'
 - Heatmap Dropdown - Choose any of the filters to see the reflection on Heatmap
 
-Below is the snapsot of the dashboard that will look:
+Below is the snapshot of the dashboard that will look:
 
-![image](https://user-images.githubusercontent.com/87165579/157771851-d13c820f-7d25-4593-9fd0-ffa4be8ea2f2.png)
+<img src ="FinalDashboard.PNG" width="1000px">
 
 ## Developer Notes
 
